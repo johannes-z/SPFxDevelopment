@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-weather-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxWeather/SpFxWeatherWebPart.js",
+          "manifest": "./src/webparts/spFxWeather/SpFxWeatherWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jquery"
+    },
+    "simpleWeather": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js",
+      "globalName": "simpleWeather",
+      "globalDependencies": ["jquery"]
+    }
+  },
+  "localizedResources": {
+    "SpFxWeatherWebPartStrings": "lib/webparts/spFxWeather/loc/{locale}.js"
+  }
+}

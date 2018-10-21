@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ToasterCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="5736a293-7aa2-467f-9ffd-7da201da4d5e"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="TypeScriptApp"
+     ProductID="{2bddbeb0-8b59-45ce-9ef9-1301f47436fd}"
+     Version="1.0.0.0"
+     SharePointMinVersion="16.0.0.0"
+>
+  <Properties>
+    <Title>TypeScriptApp</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+  <AppPermissionRequests>
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection/web" Right="Read" />
+    <AppPermissionRequest Scope="http://sharepoint/content/sitecollection" Right="Read" />
+  </AppPermissionRequests>
+  <RemoteEndpoints>
+    <RemoteEndpoint Url="http://sp2013c" />
+    <RemoteEndpoint Url="http://northwind.servicestack.net/customers" />
+  </RemoteEndpoints>
+</App>

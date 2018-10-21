@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Id="Integrations.NodeBasedSolution"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1000"
+    Title="NodeBased-Solution">
+    <UrlAction Url="_layouts/15/NodeSolution/Node.aspx"/>
+  </CustomAction>
+</Elements>

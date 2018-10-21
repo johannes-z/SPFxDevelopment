@@ -1,0 +1,12 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "none",
+    "pnpFramework": "handlebars"
+  },
+  "@microsoft/generator-sharepoint": {
+    "framework": "none",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "componentType": "webpart"
+  }
+}

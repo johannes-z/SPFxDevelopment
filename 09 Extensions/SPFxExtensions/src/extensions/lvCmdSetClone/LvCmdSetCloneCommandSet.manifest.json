@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "8f8ab125-7223-4ab3-b56f-97cd65efd195",
+  "alias": "LvCmdSetCloneCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "spfxClone": {
+      "title": { "default": "Clone" },
+      "iconImageUrl": "icons/cancel.png",
+      "type": "command"
+    }
+  }
+}

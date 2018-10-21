@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A982BBD4-8302-43DA-9288-A685A56FE280}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TypeScriptApp</RootNamespace>
+    <AssemblyName>TypeScriptApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{d65810fa-ff2e-4498-9017-bcda70d19022}</AppFeaturePartId>
+    <WspPartId>{91e566d8-8901-4532-973b-d2fc17a14a6e}</WspPartId>
+    <WorkflowPartId>{a39e3e0e-cd7d-4660-a17a-237638f6e0c4}</WorkflowPartId>
+    <CspkgPartId>{05fd0c57-5ff4-416a-b52d-d8f1ca8a1ad5}</CspkgPartId>
+    <SqlPackagePartId>{11029564-e043-4c56-b68e-c9080dd3cb7a}</SqlPackagePartId>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TypeScriptTarget>ES2016</TypeScriptTarget>
+    <TypeScriptJSXEmit>None</TypeScriptJSXEmit>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <TypeScriptCompileOnSaveEnabled>True</TypeScriptCompileOnSaveEnabled>
+    <TypeScriptNoImplicitAny>False</TypeScriptNoImplicitAny>
+    <TypeScriptRemoveComments>False</TypeScriptRemoveComments>
+    <TypeScriptOutFile />
+    <TypeScriptOutDir />
+    <TypeScriptGeneratesDeclarations>False</TypeScriptGeneratesDeclarations>
+    <TypeScriptNoEmitOnError>True</TypeScriptNoEmitOnError>
+    <TypeScriptSourceMap>True</TypeScriptSourceMap>
+    <TypeScriptMapRoot />
+    <TypeScriptSourceRoot />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2bddbeb0-8b59-45ce-9ef9-1301f47436fd}</SharePointProjectItemId>
+    </None>
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\Demo.js.map" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0dc70c5c-b303-4ced-8fb4-75ad6085b1cc}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{11029564-e043-4c56-b68e-c9080dd3cb7a}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Demo.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5781bb50-fe34-4d99-9e60-e7acbb8df79e}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f89deb47-c3ba-4c05-83e3-6e76d992da21}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{2986ea33-4c71-4e1a-8a09-403e5e636ff3}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{dab12c5d-c9a8-432c-9b93-05edf25e36f6}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\Demo.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\sharepoint\SharePoint.d.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/SitePages/Home.aspx",
+      "customActions": {
+        "5736a293-7aa2-467f-9ffd-7da201da4d5e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "toasterCustomizer": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/SitePages/Home.aspx",
+      "customActions": {
+        "5736a293-7aa2-467f-9ffd-7da201da4d5e": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "placehoderSample": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/SitePages/Home.aspx",
+      "customActions": {
+        "e1176819-fff6-4f05-9f43-505633d23b41": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "lvCmdSetClone": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/Lists/Toast/AllItems.aspx",
+      "customActions": {
+        "8f8ab125-7223-4ab3-b56f-97cd65efd195": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {}
+        }
+      }
+    },
+    "fldCustoizerWeather": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/Lists/Weather/AllItems.aspx",
+      "fieldCustomizers": {
+        "Location": {
+          "id": "0c4d057f-f37c-4099-a57c-8e6fcd0497cb",
+          "properties": {
+            "unit": "f"
+          }
+        }
+      }
+    },
+    "fldCustomizerTglReact": {
+      "pageUrl": "https://integrationseu.sharepoint.com/sites/O365Dev/SitePages/Home.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "d30c0f03-aafd-411b-8e34-1c5ea74bb6d3",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

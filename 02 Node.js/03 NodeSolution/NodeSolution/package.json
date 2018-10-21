@@ -1,0 +1,32 @@
+{
+  "name": "typescriptsolution",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "alexander.pajer@integrations.at",
+  "license": "ISC",
+  "scripts": {
+    "deploy": "webpack && gulp upload"
+  },
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "gulp-spsave": "^3.1.1",
+    "jquery": "^3.3.1",
+    "@pnp/common": "^1.2.1",
+    "@pnp/logging": "^1.2.1",
+    "@pnp/odata": "^1.2.1",
+    "@pnp/pnpjs": "^1.2.1",
+    "@pnp/sp": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.1",
+    "@types/sharepoint": "^2016.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.1.2"
+  }
+}

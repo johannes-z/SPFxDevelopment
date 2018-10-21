@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Demo.ts" Url="Scripts/Demo.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\jquery.d.ts" Url="Scripts/typings/jquery.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\microsoft-ajax\microsoft.ajax.d.ts" Url="Scripts/typings/microsoft-ajax/microsoft.ajax.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\typings\sharepoint\SharePoint.d.ts" Url="Scripts/typings/sharepoint/SharePoint.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\Demo.js" Url="Scripts/Demo.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Demo.js.map" Url="Scripts/Demo.js.map" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

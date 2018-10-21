@@ -1,0 +1,10 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.6.0",
+    "libraryName": "hello-sp-fx",
+    "libraryId": "db3c83e5-ba1f-4d32-a4cf-bf031d6df749",
+    "environment": "spo",
+    "packageManager": "npm",
+    "isCreatingSolution": true
+  }
+}

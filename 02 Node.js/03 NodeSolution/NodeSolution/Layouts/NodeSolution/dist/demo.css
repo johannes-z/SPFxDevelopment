@@ -1,0 +1,36 @@
+.divTitle {
+  background-color: #797474;
+  font-size: 18px; }
+  .divTitle:hover {
+    background-color: #ada0a0; }
+
+.demoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.demoMenu {
+  min-width: 190px;
+  flex: 2;
+  flex-grow: 2;
+  background-color: lavender;
+  padding: 10px; }
+
+.menuItems {
+  display: flex;
+  flex-direction: column; }
+  .menuItems a {
+    cursor: pointer; }
+
+.demoWorkbench {
+  min-width: 400px;
+  flex: 4;
+  flex-grow: 4;
+  background-color: lavender;
+  padding: 10px; }
+
+.spacer {
+  flex: 1 1 auto; }
+
+.workbench {
+  min-height: 300px; }
